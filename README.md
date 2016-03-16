@@ -10,8 +10,10 @@ npm run build
 
 # test commands
 npm run test-js
+npm run test-mockery
 npm run test-built
 npm run test-es6
+npm run test-react
 npm run test-xunit-report
 
 npm run debug-test-js
