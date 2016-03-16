@@ -30,7 +30,7 @@ describe('todo-item', function() {
 				)
 
 				// Searching for <input> tag within rendered React component
-			    // Throws an exception if not found
+				// Throws an exception if not found
 				this.inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
 					renderedComponent,
 					'input'
