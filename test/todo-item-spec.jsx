@@ -26,15 +26,15 @@ describe('todo-item', function() {
 			beforeEach(function() {
 				// render test elem
 				var renderedComponent = ReactTestUtils.renderIntoDocument(
-			      <TodoItem done={ isDone } name="Write Tutorial"/>
-			    )
+					<TodoItem done={ isDone } name="Write Tutorial"/>
+				)
 
 				// Searching for <input> tag within rendered React component
 			    // Throws an exception if not found
-			    this.inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
-			      renderedComponent,
-			      'input'
-			    )
+				this.inputComponent = ReactTestUtils.findRenderedDOMComponentWithTag(
+					renderedComponent,
+					'input'
+				)
 			})
 
 			it('input should be a checkbox', function() {
