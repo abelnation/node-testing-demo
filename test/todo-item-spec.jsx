@@ -1,8 +1,10 @@
 
-var assert = require('chai').assert
+// NOTE: this line is REQUIRED even though we never use it in our
+//       jsx code.  The compiled jsx will reference React obj
 var React = require('react')
-var ReactTestUtils = require('react-addons-test-utils')
 
+var assert = require('chai').assert
+var ReactTestUtils = require('react-addons-test-utils')
 var jsdom = require('jsdom')
 
 var TodoItem = require('../src/todo-item')
